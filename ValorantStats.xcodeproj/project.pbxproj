@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0488511E28C644930005F477 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488511D28C644930005F477 /* BaseRouter.swift */; };
 		3679516128C50C8400AD6CBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679516028C50C8400AD6CBD /* AppDelegate.swift */; };
 		3679516328C50C8400AD6CBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679516228C50C8400AD6CBD /* SceneDelegate.swift */; };
 		3679516528C50C8400AD6CBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679516428C50C8400AD6CBD /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0488511D28C644930005F477 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
 		3679515D28C50C8400AD6CBD /* ValorantStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValorantStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3679516028C50C8400AD6CBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3679516228C50C8400AD6CBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				3679518328C515C500AD6CBD /* ApplicationDeps.swift */,
+				0488511D28C644930005F477 /* BaseRouter.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				3679517C28C50E7B00AD6CBD /* CommonViewController.swift in Sources */,
 				3679516328C50C8400AD6CBD /* SceneDelegate.swift in Sources */,
 				3679517828C50E3700AD6CBD /* LoadingScreenViewController.swift in Sources */,
+				0488511E28C644930005F477 /* BaseRouter.swift in Sources */,
 				3679517E28C5108C00AD6CBD /* LoadingScreenViewModel.swift in Sources */,
 				3679518028C510A500AD6CBD /* CommonViewModel.swift in Sources */,
 			);

@@ -11,7 +11,7 @@ final class LoadingScreenViewController: CommonViewController<LoadingScreenViewM
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        view.backgroundColor = UIColor.orange
     }
     
     override func bind(viewModel: LoadingScreenViewModel) {
